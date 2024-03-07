@@ -1,6 +1,6 @@
-# Weather Data Toolkit
+# Kafka Weather Simulator
 
-**A brief description of what this project does and who it's for:** This project is a comprehensive toolkit for generating, debugging, and visualizing weather data reports. It's designed for data analysts, meteorologists, and anyone interested in weather patterns.
+** This project simulates how to use Kafka to generate and visualize weather data reports. It's designed for data analysts.**
 
 ## Features
 
@@ -34,4 +34,12 @@ A step-by-step series of examples that tell you how to get a development environ
 Install required Python packages:
 ```bash
 pip install -r requirements.txt
+```
+### Debugging: Use the debug tool for troubleshooting:
+```bash
+python debug.py
+```
+### Visualization: For visualizing monthly data:
+```bash
+python plot.py
 ```
